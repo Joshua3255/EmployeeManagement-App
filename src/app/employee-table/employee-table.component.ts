@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
   templateUrl: './employee-table.component.html',
   styleUrl: './employee-table.component.css',
 })
-export class EmployeeTableComponent {
+export class EmployeeTableComponent implements OnInit {
   employees: Employee[] = [];
 
   constructor(
